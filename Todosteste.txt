@@ -1,0 +1,4 @@
+1;Capitão América 1;0:00:05
+2;Homem de Ferro 1;0:00:10
+3;O Incrível Hulk;0:00:15
+4;Homem de Ferro 2;0:00:20
