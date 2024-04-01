@@ -1,0 +1,7 @@
+{
+    "identity": {
+        "username": "filmes_seriesbr",
+        "password": "oauth:7jqp8tfjdi9pbkzfq0xcc0w9mufxdn"
+    },
+    "channels": ["filmes_seriesbr"]
+}
