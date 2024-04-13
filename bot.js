@@ -22,27 +22,25 @@ client.on('message', (channel, tags, message, self) => {
 
     console.log(`[${channel}] ${tags['display-name']}: ${message}`);
 
+    if (message.toLowerCase() === '!filme') {
+        lerFilmeAtual((filme) => {
+            if (filme) {
+                client.say(channel, `O filme atual é: ${filme}`);
+            } else {
+                client.say(channel, 'Não há nenhum filme atual.');
+            }
+        });
+    }
 });
-    
-//     if (message.toLowerCase() === '!filme') {
-//         lerFilmeAtual((filme) => {
-//             if (filme) {
-//                 client.say(channel, `O filme atual é: ${filme}`);
-//             } else {
-//                 client.say(channel, 'Não há nenhum filme atual.');
-//             }
-//         });
-//     }
-// });
 
-// function lerFilmeAtual(callback) {
-//     fs.readFile('Filmeatual.txt', 'utf8', (err, data) => {
-//         if (err) {
-//             console.error('Erro ao ler o arquivo Filmeatual.txt:', err);
-//             callback(null);
-//         } else {
-//             const filme = data.trim();
-//             callback(filme);
-//         }
-//     });
-// }
+function lerFilmeAtual(callback) {
+    fs.readFile('Filmeatual.txt', 'utf8', (err, data) => {
+        if (err) {
+            console.error('Erro ao ler o arquivo Filmeatual.txt:', err);
+            callback(null);
+        } else {
+            const filme = data.trim();
+            callback(filme);
+        }
+    });
+}

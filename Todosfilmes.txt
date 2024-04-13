@@ -1,0 +1,29 @@
+1;Capitão América 1;1:53:20
+2;Capitã Marvel;1:53:06
+3;Homem de Ferro 1;1:57:19
+4;O Incrível Hulk;1:44:45
+5;Homem de Ferro 2;1:57:18
+6;Thor 1;1:46:17
+7;Os Vingadores;2:14:09
+8;Homem de Ferro 3;2:00:27
+9;Thor 2 - O Mundo Sombrio;1:43:56
+10;Capitão América 2 - O Soldado Invernal;2:07:30
+11;Guardiões da Galáxia 1;1:52:50
+12;Guardiões da Galáxia 2;2:08:02
+13;Vingadores - Era de Ultron;2:10:50
+14;Homem-Formiga 1;01:48:51
+15;Capitão América 3 - Guerra Civil;2:18:29
+16;Pantera Negra;2:04:37
+17;Homem-Aranha - De Volta ao Lar;2:02:41
+18;Doutor Estranho 1;1:45:15
+19;Thor 3 - Ragnarok;2:00:52
+20;Homem-Formiga e a Vespa;1:49:01
+21;Vingadores - Guerra Infinita;2:18:33
+22;Vingadores - Ultimato;2:48:25
+23;Eternos;02:26:06
+24;Homem-Aranha - Longe de Casa;1:56:05
+25;Homem-Aranha - Sem Volta Para Casa;2:24:04
+26;Doutor Estranho no Multiverso da Loucura;1:56:28
+27;Thor 4 - Amor e Trovão;1:49:29
+28;Pantera Negra 2 - Wakanda Para Sempre;02:31:28
+29;Guardiões da Galáxia 3;2:21:36
