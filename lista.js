@@ -92,14 +92,14 @@ function iniciarContagemRegressiva(segundos, callback) {
             clearInterval(intervalo);
             callback();
         } else {
-            console.log(`Tempo restante: ${tempoRestante} segundos`);
+            // console.log(`Tempo restante: ${tempoRestante} segundos`);
             tempoRestante--;
         }
     }, 1000);
 }
 
 // Exemplo de uso:
-const nomeArquivo = 'Todosfilmes.txt';
+const nomeArquivo = 'Todosteste.txt';
 const titulos = ['Número', 'Nome do Filme', 'Duração']; // Títulos das colunas
 lerArquivoTxt(nomeArquivo, titulos, (err, tabela) => {
     if (err) {

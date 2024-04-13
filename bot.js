@@ -20,7 +20,7 @@ client.connect();
 client.on('message', (channel, tags, message, self) => {
     if (self) return; // Ignorar mensagens do próprio bot
 
-    console.log(`[${channel}] ${tags['display-name']}: ${message}`);
+    // console.log(`[${channel}] ${tags['display-name']}: ${message}`);
 
     if (message.toLowerCase() === '!filme') {
         lerFilmeAtual((filme) => {
