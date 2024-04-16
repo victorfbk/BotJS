@@ -99,7 +99,7 @@ function iniciarContagemRegressiva(segundos, callback) {
 }
 
 // Exemplo de uso:
-const nomeArquivo = 'Todosteste.txt';
+const nomeArquivo = 'Todosfilmes.txt';
 const titulos = ['Número', 'Nome do Filme', 'Duração']; // Títulos das colunas
 lerArquivoTxt(nomeArquivo, titulos, (err, tabela) => {
     if (err) {
